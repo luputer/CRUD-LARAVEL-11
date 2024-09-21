@@ -29,5 +29,36 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-Cara Clone dan Install
+
+## Cara Clone dan Install
 Jika Anda ingin mengkloning dan menginstal repository ini, ikuti langkah-langkah berikut:
+
+1. Buat folder baru, lalu buka terminal dan ketik:
+   ```bash
+   git clone https://github.com/call-zull/kursus-ardi.git .
+2. Jalankan perintah berikut di terminal untuk menginstal dependensi:
+   ```bash
+    composer install
+3. Ubah nama file .env.example menjadi .env, lalu sesuaikan pengaturan database Anda dengan DB_DATABASE di file .env.
+4. Sesuaikan APP_URL di file .env dengan local server Anda. Contoh: http://127.0.0.1:8000.
+5. Jalankan perintah berikut di terminal untuk menghasilkan key aplikasi, nanti Jika diminta untuk overwrite, tekan "yes"
+     ```bash
+    php artisan key:generate
+6. Buat symbolic link untuk penyimpanan:
+    ```bash
+    php artisan storage:link
+7. Jalankan migrasi database dengan perintah:
+    ```bash
+    php artisan migrate:fresh --seed
+8. Mulai server Laravel dengan perintah:
+    ```bash
+    php artisan serve
+9. Jika mengalami error terkait sesi atau cache, jalankan:
+    ```bash
+    php artisan optimize:clear
+10. Anda Bisa Login Menggunakan
+    Email : ardi@gmail.com
+    password : ardi
+11. Pada bagian kursus jika anda ingin melengkapi, Anda bisa menambahkan gambar dengan mengklik edit, lalu unggah gambar dan simpan. Jika Anda tidak memiliki gambar, saya telah               menyediakan beberapa gambar difolder public/kursus.
+
+Selamat Mencoba !
