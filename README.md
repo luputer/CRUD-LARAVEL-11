@@ -35,7 +35,7 @@ Jika Anda ingin mengkloning dan menginstal repository ini, ikuti langkah-langkah
 
 1. Buat folder baru, lalu buka terminal dan ketik:
    ```bash
-   git clone https://github.com/call-zull/kursus-ardi.git .
+   git clone https://github.com/luputer/CRUD-LARAVEL-11.git
 2. Jalankan perintah berikut di terminal untuk menginstal dependensi:
    ```bash
     composer install
@@ -56,9 +56,3 @@ Jika Anda ingin mengkloning dan menginstal repository ini, ikuti langkah-langkah
 9. Jika mengalami error terkait sesi atau cache, jalankan:
     ```bash
     php artisan optimize:clear
-10. Anda Bisa Login Menggunakan
-    Email : ardi@gmail.com
-    password : ardi
-11. Pada bagian kursus jika anda ingin melengkapi, Anda bisa menambahkan gambar dengan mengklik edit, lalu unggah gambar dan simpan. Jika Anda tidak memiliki gambar, saya telah               menyediakan beberapa gambar difolder public/kursus.
-
-Selamat Mencoba !
