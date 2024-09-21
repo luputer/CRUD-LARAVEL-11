@@ -29,3 +29,5 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+Cara Clone dan Install
+Jika Anda ingin mengkloning dan menginstal repository ini, ikuti langkah-langkah berikut:
